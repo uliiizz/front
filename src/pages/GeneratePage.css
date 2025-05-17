@@ -1,0 +1,94 @@
+.generate-page {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .generate-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout-button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .generate-form {
+    margin-top: 1rem;
+  }
+  
+  .section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  input[type='number'] {
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-array {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .generate-button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .download-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #2ecc71;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  
+  .file-list-section {
+    margin-top: 2rem;
+  }
+  
+  .file-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .file-list li {
+    margin-bottom: 0.5rem;
+  }
+
+  .s3key-display {
+  font-size: 0.85em;
+  color: #555;
+  margin-left: 1.5em;
+  margin-top: 0.25em;
+}
+  
