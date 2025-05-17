@@ -138,8 +138,8 @@ export default function GeneratePage() {
         from io import StringIO
 
         # Дані доступу 
-        aws_access_key_id = '${import.meta.env.aws_access_key_id }'
-        aws_secret_access_key = '${import.meta.env.aws_secret_access_key }'
+        aws_access_key_id = '${import.meta.env.AWS_ACCESS_KEY_ID }'
+        aws_secret_access_key = '${import.meta.env.AWS_SECRET_ACCESS_KEY }'
         bucket_name = 'eisgenerator'
         s3_file_key = 'ВВЕДІТЬ СЮДИ ШЛЯХ ДО ПОТРІБНОГО ФАЙЛУ'  # Наприклад: 'data/myfile.csv'
 
